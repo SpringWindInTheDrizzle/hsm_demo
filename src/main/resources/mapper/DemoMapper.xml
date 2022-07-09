@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.hsm_demo.repository.mapper.DemoMapper">
+    <select id="geAge" resultType="com.example.hsm_demo.repository.po.DemoPo">
+        select * from demo
+            where age >= #{nianling};
+    </select>
+</mapper>
