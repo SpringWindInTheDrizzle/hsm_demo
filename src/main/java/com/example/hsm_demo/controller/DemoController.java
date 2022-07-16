@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * @author Pianist
+ * @author dorothy
  */
 
 /**
  * RestController是@Controller和@ResponseBody的融合，
- * ResponseBody将数据库的返回的数据，自己变成json格式
+ * ResponseBody将web层要渲染展示的数据，自己变成json格式
  * Controller控制类，@bean被Spring管理，与Mapping中的路径合并
  */
 @RestController
