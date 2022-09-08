@@ -1,5 +1,6 @@
 package com.example.hsm_demo.controller;
 
+import com.example.hsm_demo.auth.UserDetail;
 import com.example.hsm_demo.repository.po.DemoPo;
 import com.example.hsm_demo.service.DemoService;
 import com.example.hsm_demo.vo.Response;

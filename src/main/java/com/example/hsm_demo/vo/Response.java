@@ -19,4 +19,15 @@ public class Response<T> {
 
     }
 
+    public static Response failResponse(String failMessage) {
+        Response response = new Response();
+        response.setCode(200).setMessage(failMessage);
+        return response;
+    }
+
+    public static Response success() {
+        Response response = new Response();
+        response.setCode(200).setMessage("");
+        return response;
+    }
 }
