@@ -30,4 +30,10 @@ public class Response<T> {
         response.setCode(200).setMessage("");
         return response;
     }
+
+    public static Response success(Object entity) {
+        Response response = new Response();
+        response.setCode(200).setMessage("").setEntity(entity);
+        return response;
+    }
 }

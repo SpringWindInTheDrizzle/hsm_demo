@@ -2,7 +2,6 @@ package com.example.hsm_demo.vo;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
@@ -11,4 +10,5 @@ import java.util.List;
 public class IndexVo {
     private List<BannerVo> bannerVos;
     private List<CategoryVo> categoryVos;
+    private List<CatVo> recommendVos;
 }
